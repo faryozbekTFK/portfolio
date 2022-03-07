@@ -1,0 +1,50 @@
+.header {
+  width: 68%;
+  min-height: 100vh;
+  padding-left: 100px;
+  background-color: rgb(235, 252, 255);
+}
+
+.header h1 {
+  font-size: 72px !important;
+  font-weight: bold !important;
+}
+
+.header h4 {
+  font-size: 50px !important;
+  font-weight: bold;
+}
+
+.rectangle,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.rectangle {
+  width: 100px;
+  height: 350px;
+  border: 10px solid var(--yellow);
+  border-radius: 50px;
+  align-items: center;
+}
+
+.rectangle .icons {
+  font-size: 40px;
+  color: var(--yellow);
+}
+
+.contact {
+  margin-left: 40px;
+}
+
+.contact h2 {
+  font-weight: 400;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+}
