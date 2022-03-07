@@ -10,4 +10,4 @@ Link: [UzbRoads](https://roads-uzb.netlify.app/)
 
 Link: [GitHub](https://github.com/faryozbekTFK)
 
-![This is an image](https://github.com/faryozbekTFK/Portfolio/blob/ResumeSite/src/assets/images/resume.png)
+![This is an image](https://github.com/faryozbekTFK/Portfolio/blob/ResumeSite/src/assets/images/resume.jpg)
