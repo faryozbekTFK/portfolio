@@ -1,11 +1,10 @@
 .header {
   width: 68%;
-  min-height: 100vh;
   padding-left: 100px;
   background-color: rgb(235, 252, 255);
 }
 
-.header h1 {
+.header .fullName {
   font-size: 72px !important;
   font-weight: bold !important;
 }
@@ -47,4 +46,93 @@
   text-decoration: none;
   color: black;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 1025px) {
+  .header {
+    padding-left: 60px;
+  }
+  .header .fullName {
+    font-size: 45px !important;
+  }
+  .header h4 {
+    font-size: 35px !important;
+  }
+  .rectangle {
+    width: 70px;
+    height: 250px;
+    border-radius: 50px;
+    border: 7px solid var(--yellow);
+  }
+  .rectangle .icons {
+    font-size: 30px;
+  }
+  .contact h2 {
+    font-size: 25px !important;
+  }
+
+  .title h1 {
+    font-size: 30px !important;
+  }
+  .title h5 {
+    font-size: 20px !important;
+  }
+
+  .skills span {
+    font-size: 60px !important;
+  }
+  .skills h5 {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    padding-left: 25px;
+  }
+  .header .fullName {
+    font-size: 20px !important;
+  }
+  .header h4 {
+    font-size: 15px !important;
+  }
+  .rectangle {
+    width: 30px;
+    height: 120px;
+    border: 3px solid var(--yellow);
+  }
+  .rectangle .icons {
+    font-size: 15px;
+  }
+  .header .contacts {
+    margin-top: 15px !important;
+  }
+  .contact {
+    margin-left: 10px !important;
+    margin-top: 0px !important;
+  }
+  .contact h2 {
+    font-size: 10px !important;
+  }
+  .header .title {
+    margin-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .title h1 {
+    font-size: 15px !important;
+    margin-bottom: 10px !important;
+  }
+  .title h5 {
+    font-size: 10px !important;
+    padding-right: 0px !important;
+  }
+  .header .title div {
+    padding-right: 15px !important;
+  }
+  .skills span {
+    font-size: 25px !important;
+  }
+  .skills h5 {
+    font-size: 10px !important;
+  }
 }

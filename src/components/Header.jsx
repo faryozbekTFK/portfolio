@@ -16,7 +16,7 @@ function Header() {
     return (
       <a
         href={link}
-        className="d-flex flex-column align-items-center text-decoration-none text-dark"
+        className="skills d-flex flex-column align-items-center text-decoration-none text-dark"
       >
         <span style={{ fontSize: "100px" }}>{icon}</span>
         <h5>{name}</h5>
@@ -26,11 +26,11 @@ function Header() {
 
   return (
     <div className="header">
-      <h1>
+      <h1 className="fullName">
         FARYOZBEK <span className="text-warning">TO'XTASINOV</span>
       </h1>
       <h4>FRONTEND DEVELOPER</h4>
-      <div className="d-flex mt-5">
+      <div className="contacts d-flex mt-5">
         <div className="rectangle">
           <BsFillTelephoneFill className="icons" />
           <FaTelegramPlane className="icons" />
@@ -58,8 +58,8 @@ function Header() {
       </div>
 
       {/* profile */}
-      <div className=" mt-5 pt-3 pb-5">
-        <h4 className="text-warning mb-4">PROFILE</h4>
+      <div className="title mt-5 pt-3 pb-5">
+        <h1 className="text-warning fw-bold mb-4">PROFILE</h1>
         <h5 className="fs-4 fw-light pe-5 me-5">
           I was born on November 13, 2000 in Boz District of Andijan region. I'm
           21 years old. I'm a boy. I am interested in programming.
@@ -67,8 +67,8 @@ function Header() {
       </div>
 
       {/* experience */}
-      <div className="mt-5 pt-3 pb-5">
-        <h4 className="text-warning mb-4">EXPERIENCE</h4>
+      <div className="title mt-5 pt-3 pb-5">
+        <h1 className="text-warning fw-bold mb-4">EXPERIENCE</h1>
         <h5 className="fs-3 fw-bolder">FRONTEND DEVELOPER - 2021</h5>
         <h5 className="fs-4 ">RoboticsLab Training Center</h5>
         <h5 className="fs-4 fw-light pe-5 me-5">
@@ -78,8 +78,8 @@ function Header() {
       </div>
 
       {/* skills */}
-      <div className="mt-5 pt-3 pb-5">
-        <h4 className="text-warning mb-4">SKILLS</h4>
+      <div className="title mt-5 pt-3 pb-5">
+        <h1 className="text-warning fw-bold mb-4">SKILLS</h1>
         <div className="d-flex w-100 pe-5 me-5 mt-2 justify-content-between">
           <SkillsProg
             icon={<IoLogoHtml5 />}

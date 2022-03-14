@@ -36,13 +36,89 @@
   margin-top: 30px;
 }
 
-
-
 @keyframes circleAnim {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .imageCircle {
+    width: 230px;
+    height: 230px;
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+  }
+  .imageCircle .minCir {
+    width: 15px;
+    height: 15px;
+    border-top: 5px solid var(--yellow);
+    border-bottom: 5px solid var(--yellow);
+    margin-top: -7px;
+    margin-bottom: -7px;
+  }
+  .sitebar img {
+    width: 185px;
+    height: 185px;
+    margin-top: 22.5px;
+  }
+  .education h5 {
+    font-size: 15px !important;
+  }
+  .language h5 {
+    font-size: 15px !important;
+    margin-top: 10px !important;
+  }
+  .language .line {
+    height: 4px !important;
+  }
+  .hobbyIcon {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .imageCircle {
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+  }
+  .imageCircle .minCir {
+    width: 7px;
+    height: 7px;
+    border-top: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--yellow);
+    margin-top: -3px;
+    margin-bottom: -3px;
+  }
+  .sitebar img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+  }
+  .sitebar .title {
+    margin-top: -5px !important;
+  }
+  .education h5 {
+    font-size: 7px !important;
+    margin: 3px 0px !important;
+  }
+
+  .language h5 {
+    font-size: 12px !important;
+    margin: 3px 0px !important;
+  }
+  .language .line {
+    height: 3px !important;
+  }
+  .sitebar .hobbies {
+    margin-top: 0px !important;
+  }
+  .hobbyIcon {
+    font-size: 25px !important;
   }
 }

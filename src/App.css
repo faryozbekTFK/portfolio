@@ -3,10 +3,26 @@
 }
 
 .App {
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
 }
 
 .header,
 .sitebar {
+  min-height: 100vh;
   padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 426px) {
+  .header,
+  .sitebar {
+    padding-top: 40px;
+  }
+
+  .footer h6 {
+    font-size: 10px !important;
+  }
 }
