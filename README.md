@@ -1,6 +1,6 @@
 # There is a resume site here
 
-Link: [To'xtasinov Faryozbek CV](http://toxtasinov-faryozbek-portfolio.netlify.app/)
+Link: [To'xtasinov Faryozbek Portfolio](http://toxtasinov-faryozbek-portfolio.netlify.app/)
 
 # My GitHub account
 
