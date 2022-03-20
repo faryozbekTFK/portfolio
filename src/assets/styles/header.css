@@ -2,6 +2,7 @@
   width: 68%;
   padding-left: 100px;
   background-color: rgb(235, 252, 255);
+  border-top-right-radius: 20px;
 }
 
 .header .fullName {

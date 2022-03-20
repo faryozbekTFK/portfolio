@@ -1,0 +1,52 @@
+.portfolio {
+  height: 100vh !important;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.cont .card {
+  width: 18rem;
+  margin: 30px;
+}
+
+.cont .cardLink,
+.cont img {
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+.cont img {
+  width: 100% !important;
+  height: 140px !important;
+}
+
+.cont .cardLink:hover,
+.cont img:hover {
+  transform: scale(1.08);
+  border-radius: 5px;
+}
+.cont .gitLink:hover {
+  font-weight: bold;
+  color: red;
+}
+
+@media screen and (max-width: 426px) {
+  .portfolio {
+    height: max-content !important;
+  }
+  .portfolio h1 {
+    font-size: 25px !important;
+  }
+  .cont {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
+  .cont .card {
+    width: 15rem;
+    margin: 15px 0px;
+  }
+}
