@@ -45,6 +45,9 @@
     display: grid;
     grid-template-columns: repeat(1, auto);
   }
+  .cont img {
+    height: 120px !important;
+  }
   .cont .card {
     width: 15rem;
     margin: 15px 0px;

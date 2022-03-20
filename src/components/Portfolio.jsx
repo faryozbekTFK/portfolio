@@ -2,16 +2,16 @@ import { Card } from "react-bootstrap";
 import "../assets/styles/portfolio.css";
 import wirtusTricot from "../assets/images/wirtus-tricot.png";
 import eCommerceApp from "../assets/images/e-commerce-app.png";
-import portfolioSite from "../assets/images/portfolio-site.png";
+import resume from "../assets/images/resume.png";
 import roadsUZB from "../assets/images/roadsUZB.png";
 
 function Portfolio() {
   const portfolioData = [
     {
-      link: "/",
-      title: "Portfolio Site",
-      image: portfolioSite,
-      github: "https://github.com/faryozbekTFK/Portfolio",
+      link: "https://toxtasinov-faryozbek-cv.netlify.app/",
+      title: "Resume",
+      image: resume,
+      github: "https://github.com/faryozbekTFK/Portfolio/tree/Resume",
     },
     {
       link: "https://wirtus-tricot.netlify.app/",
