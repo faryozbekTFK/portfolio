@@ -1,0 +1,30 @@
+.about {
+  height: 100vh;
+
+  margin-top: 40px;
+}
+
+.about .aboutCont {
+  width: 80%;
+  height: max-content;
+  background-color: rgb(239, 239, 239);
+  box-shadow: 0px 0px 10px 10px rgba(70, 70, 70, 0.423);
+  border-radius: 10px;
+  padding: 30px 20px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 426px) {
+  .about .aboutCont {
+    padding: 20px;
+  }
+  .aboutCont h1 {
+    font-size: 20px;
+    margin: 0px !important;
+  }
+  .aboutCont h5 {
+    font-size: 15px;
+    padding: 15px 0px !important;
+    margin: 0px !important;
+  }
+}

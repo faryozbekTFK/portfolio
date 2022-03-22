@@ -1,13 +1,13 @@
-import userImage from "../assets/images/userImage.png";
+import userImage from "../../assets/images/userImage.png";
 import { MdOutlineLanguage } from "react-icons/md";
 import { SiYourtraveldottv } from "react-icons/si";
 import { GiGameConsole } from "react-icons/gi";
 import { FaCode } from "react-icons/fa";
 import { HiMusicNote } from "react-icons/hi";
 
-import "../assets/styles/sitebar.css";
+import "../../assets/styles/resumeAssistantSection.css";
 
-function Sitebar() {
+function ResumeAssistantSection() {
   const Education = ({ year, name }) => {
     return (
       <div className="education">
@@ -82,4 +82,4 @@ function Sitebar() {
   );
 }
 
-export default Sitebar;
+export default ResumeAssistantSection;

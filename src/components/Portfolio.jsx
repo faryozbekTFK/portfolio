@@ -1,9 +1,9 @@
 import { Card } from "react-bootstrap";
-import "../assets/styles/portfolio.css";
 import wirtusTricot from "../assets/images/wirtus-tricot.png";
 import eCommerceApp from "../assets/images/e-commerce-app.png";
 import resume from "../assets/images/resume.png";
 import roadsUZB from "../assets/images/roadsUZB.png";
+import "../assets/styles/portfolio.css";
 
 function Portfolio() {
   const portfolioData = [
@@ -38,7 +38,7 @@ function Portfolio() {
       <a href={link} className="cardLink ">
         <Card className="card ">
           <img src={image} alt={title} />
-          <Card.Body>
+          <Card.Body className="cardBody">
             <Card.Title>{title}</Card.Title>
           </Card.Body>
           <a href={github} className="gitLink">
@@ -52,20 +52,22 @@ function Portfolio() {
   };
 
   return (
-    <div className="portfolio m-auto">
-      <h1 className="text-center m-2">MY PORTFOLIOS</h1>
-      <div className="cont">
-        {portfolioData.map((portfolio) => {
-          return (
-            <CardList
-              key={portfolio.title}
-              link={portfolio.link}
-              title={portfolio.title}
-              image={portfolio.image}
-              github={portfolio.github}
-            />
-          );
-        })}
+    <div className="portfolio  ">
+      <div className="portCont ">
+        <h1 className="text-center">MY PORTFOLIOS</h1>
+        <div className="cont mt-4">
+          {portfolioData.map((portfolio) => {
+            return (
+              <CardList
+                key={portfolio.title}
+                link={portfolio.link}
+                title={portfolio.title}
+                image={portfolio.image}
+                github={portfolio.github}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
