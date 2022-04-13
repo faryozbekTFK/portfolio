@@ -15,3 +15,22 @@
   border-radius: 50%;
   margin-top: 70px;
 }
+
+@media screen and (max-width: 520px) {
+  .aboutContainer {
+    padding: 10px !important;
+    column-gap: 20px;
+  }
+  .aboutContainer .userImage {
+    width: 80px;
+    height: 80px;
+  }
+
+  .aboutContainer h3 {
+    font-size: 17px;
+  }
+  .aboutContainer h5 {
+    width: 100% !important;
+    font-size: 15px;
+  }
+}

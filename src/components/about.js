@@ -10,6 +10,7 @@ function About() {
       <div className="aboutContainer">
         <img
           src={userImage}
+          alt="userImage"
           className="userImage top-50"
           data-aos="zoom-in"
           data-aos-duration="1000"

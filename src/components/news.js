@@ -1,58 +1,43 @@
 import dataTable from "../components/assetsComponents/table-data.json";
-import { FaCalendarAlt } from "react-icons/fa";
+import "../styles/news.css";
 
-function News() {
-  function NewsComp(props) {
-    return (
-      <div className="w-100 d-flex justify-content-center">
-        <div className="d-flex flex-column align-items-center">
-          <div className="w-100 d-flex py-4 justify-content-center">
-            <h4
-              className="w-25 mx-5 text-decoration-underline text-lg-end"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              {props.data.statusi}
-            </h4>
-            <div>
-              <h4
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-delay="300"
-              >
-                {props.data.nomi}
-              </h4>
-              <h6
-                className="fst-italic fw-light"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-delay="500"
-              >
-                <FaCalendarAlt /> Dushanba, {props.data.sana}
-              </h6>
-              <h5
-                className="fw-light"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="700"
-              >
-                Describe your experience at school, what you learned, what
-                useful skills you have acquired etc.
-              </h5>
-            </div>
+function NewsComp({ data }) {
+  return (
+    <div className="col-md-4 col-sm-6 content-card m-auto">
+      <div className="card-big-shadow m-auto">
+        <div
+          className="card card-just-text"
+          data-background="color"
+          data-color="blue"
+          data-radius="none"
+        >
+          <div className="content">
+            <h4 className="title">{data.nomi}</h4>
+            <p className="description">
+              {data.statusi} <br />
+              {data.boshlangan} - {data.tugatiladi}
+              <br />
+              <button className="border-0 outline-none bg-transparent mt-1 fst-italic">
+                Batafsil...
+              </button>
+            </p>
+            <h6 className="category">{data.createdTime}</h6>
           </div>
-          <hr className="w-100 text-lg-center" />
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
+function News() {
   return (
     <div className="news py-2 d-flex flex-column justify-content-evenly align-items-center">
       <h2>Yangiliklar</h2>
-      <NewsComp data={dataTable[dataTable.length - 1]} />
-      <NewsComp data={dataTable[dataTable.length - 2]} />
-      <NewsComp data={dataTable[dataTable.length - 3]} />
+      <div className="container bootstrap snippets bootdeys row">
+        <NewsComp data={dataTable[dataTable.length - 1]} />
+        <NewsComp data={dataTable[dataTable.length - 2]} />
+        <NewsComp data={dataTable[dataTable.length - 3]} />
+      </div>
     </div>
   );
 }

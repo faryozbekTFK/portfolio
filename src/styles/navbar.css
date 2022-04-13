@@ -17,10 +17,21 @@
 .gamburger:active {
   transform: scale(1.1);
 }
-
 @media screen and (max-width: 990px) {
   .navbarContainer {
     width: 450px;
     margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbarContainer {
+    width: 90% !important;
+  }
+  .navbarContainer h3 {
+    font-size: 20px !important;
+  }
+  .navbarContainer span {
+    font-size: 15px !important;
   }
 }

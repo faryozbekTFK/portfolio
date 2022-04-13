@@ -7,6 +7,7 @@ import "datatables.net-dt/js/dataTables.dataTables.js";
 import "jquery/dist/jquery.min.js";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/new-table-comp.css";
 
 class NewTableComp extends React.Component {
   state = {
@@ -44,9 +45,7 @@ class NewTableComp extends React.Component {
               marginTop: "10px",
             }}
           >
-            <option value="default" selected disabled>
-              Holatni tanlang
-            </option>
+            <option disabled>Holatni tanlang</option>
             <option value="barchasi">Barchasi</option>
             <option value="ta'mirlanmoqda">Ta'mirlanayotgan yo'llar</option>
             <option value="rejalashtirilmoqda">
