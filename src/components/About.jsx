@@ -2,7 +2,7 @@ import "../assets/styles/about.css";
 
 function About() {
   return (
-    <div className="about d-flex justify-content-center mt-4">
+    <div className="about d-flex justify-content-center ">
       <div className="aboutCont">
         <h1 className="text-center m-3">About Me</h1>
         <h5 className=" px-5">

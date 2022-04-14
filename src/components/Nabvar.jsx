@@ -20,9 +20,9 @@ function NavBar() {
           <Link to="/section/portfolio" className="link">
             Portfolio
           </Link>
-          <Link to="/section/about" className="link">
+          {/* <Link to="/section/about" className="link">
             About
-          </Link>
+          </Link> */}
           <Link to="/section/cv" className="link">
             CV
           </Link>

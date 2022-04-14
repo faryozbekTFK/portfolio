@@ -23,9 +23,9 @@ function Header() {
               <Link to="/section/portfolio" className="h4 ">
                 Portfolio
               </Link>
-              <Link to="/section/about" className="h4 ">
+              {/* <Link to="/section/about" className="h4 ">
                 About
-              </Link>
+              </Link> */}
               <Link to="/section/cv" className="h4 ">
                 CV
               </Link>

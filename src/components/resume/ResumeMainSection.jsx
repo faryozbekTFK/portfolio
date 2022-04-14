@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { FaTelegramPlane, FaGithubSquare } from "react-icons/fa";
 import { AiFillApi } from "react-icons/ai";
 import { RiReactjsLine } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
 import {
   IoHome,
   IoLogoHtml5,
@@ -94,19 +95,24 @@ function ResumeMainSection() {
           <SkillsProg
             icon={<BsBootstrapFill />}
             name="Bootstrap"
-            link="https://www.w3schools.com/bootstrap"
+            link="https://getbootstrap.com"
           />
           <SkillsProg
             icon={<IoLogoJavascript />}
             name="Java Script"
-            link="https://www.w3schools.com/js"
+            link="https://www.javascript.com"
           />
         </div>
-        <div className="d-flex w-100 pe-5 me-5 mt-2 justify-content-evenly">
+        <div className="d-flex w-100 pe-5 me-5 mt-2 justify-content-between">
           <SkillsProg
             icon={<RiReactjsLine />}
             name="ReactJS"
-            link="https://www.w3schools.com/react"
+            link="https://reactjs.org"
+          />
+          <SkillsProg
+            icon={<SiRedux />}
+            name="Redux"
+            link="https://redux.js.org"
           />
           <SkillsProg
             icon={<AiFillApi />}

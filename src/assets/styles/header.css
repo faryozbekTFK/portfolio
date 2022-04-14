@@ -1,9 +1,13 @@
 .header {
+  background-image: url("../images/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .headerCont {
   height: 100%;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,8 +89,8 @@
     padding: 0px !important;
   }
   .header .headCont {
-    width: 90%;
-    height: 95%;
+    width: 85%;
+    height: 80%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -94,19 +98,20 @@
   .header .leftHead {
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 55%;
     padding: 0px;
+    padding-top: 20px;
     text-align: center;
   }
   .headCont .leftHead .menu {
-    width: 300px;
+    width: 80%;
   }
   .headCont .leftHead .menu img {
     width: 35px;
     height: 35px;
   }
   .headCont .leftHead .menu .h4 {
-    font-size: 15px;
+    font-size: 13px;
   }
   .header .leftHead h1 {
     font-size: 35px;
@@ -122,7 +127,7 @@
   }
 
   .header .headCont .rightHead {
-    width: 250px;
+    width: 58%;
     /* display: none; */
   }
 }
