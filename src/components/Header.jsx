@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { FaTelegramPlane, FaGithubSquare } from "react-icons/fa";
 import { AiFillApi } from "react-icons/ai";
 import { RiReactjsLine } from "react-icons/ri";
+import { SiRedux } from "react-icons/si";
 import {
   IoHome,
   IoLogoHtml5,
@@ -102,11 +103,16 @@ function Header() {
             link="https://www.w3schools.com/js"
           />
         </div>
-        <div className="d-flex w-100 pe-5 me-5 mt-2 justify-content-evenly">
+        <div className="d-flex w-100 pe-5 me-5 mt-2 justify-content-between">
           <SkillsProg
             icon={<RiReactjsLine />}
             name="ReactJS"
             link="https://www.w3schools.com/react"
+          />
+          <SkillsProg
+            icon={<SiRedux />}
+            name="Redux"
+            link="https://redux.js.org"
           />
           <SkillsProg
             icon={<AiFillApi />}
