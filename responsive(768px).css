@@ -1,0 +1,178 @@
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px;
+  }
+
+  .bodyCont {
+    width: 738px;
+  }
+
+  .bgEllipce1 {
+    display: none;
+  }
+
+  .bgEllipce2 {
+    display: none;
+  }
+
+  nav {
+    margin-top: 16px;
+    width: 738px;
+  }
+
+  nav .brand {
+    width: 187.28px;
+    height: 63.44px;
+    padding-right: 14px;
+  }
+
+  nav .navText {
+    width: 158.53px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav .phone {
+    display: none;
+  }
+
+  nav .phone img {
+    width: 15.58px;
+    height: 15.58px;
+    margin: 4px;
+  }
+
+  nav button {
+    width: 158px;
+    height: 44px;
+    margin-left: 70px;
+    margin-right: 79px;
+  }
+
+  nav button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  nav .burgerIcon {
+    display: flex;
+    width: 42px;
+    height: 28px;
+  }
+
+  header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin-top: 45px;
+  }
+  header .leftCont {
+    width: 738px;
+    margin-left: 15px;
+  }
+  header .leftCont .group389 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  header .leftCont h1 {
+    width: 738px;
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  header .leftCont h4 {
+    margin-top: 26px;
+    font-size: 20px;
+  }
+  header .leftCont h4 span {
+    font-size: 45px;
+  }
+  header .leftCont h4 img {
+    width: 48px;
+    height: 46.35px;
+    margin-right: 25px;
+  }
+
+  header .leftCont .text_lato {
+    font-size: 20px;
+  }
+
+  header .leftCont .text_lato p {
+    width: 482px;
+  }
+
+  header .rightCont .bgStar {
+    display: none;
+  }
+
+  header .rightCont .supermen {
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    top: 160px;
+    right: -160px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 77px;
+  }
+  section h2 {
+    width: 626px;
+    margin-bottom: calc(85px - 64px);
+  }
+  section .sec1Cont {
+    column-gap: 38px;
+    margin-top: 64px;
+  }
+
+  section .sec1Img1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  section span {
+    width: 428px;
+    font-size: 20px;
+  }
+
+  .section2Cont {
+    margin-top: 120px;
+  }
+
+  .section2Cont h2 {
+    width: 626px;
+    font-size: 40px;
+  }
+
+  .section2Cont .sec2Text {
+    width: 683px;
+    font-size: 20px;
+  }
+
+  .cardsCont {
+    grid-template-columns: repeat(2, 255px);
+    gap: 60px;
+  }
+
+  .cardsCont .card img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .cardsCont .card h5 {
+    font-size: 19.9988px;
+  }
+
+  .cardsCont .card h6 {
+    font-size: 15.9991px;
+    margin-top: 10px;
+  }
+}
