@@ -31,7 +31,7 @@ function App() {
 
   useEffect(() => {
     user && navigate("/posts");
-  }, [user]);
+  }, [user, navigate]);
 
   return (
     <Routes>
